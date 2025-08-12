@@ -42,3 +42,9 @@ It reads structured JSON files containing LocalDefinition entries, lets you modi
 ## What do you need?
 
 For my local environment i've been using Ollama to have API access to the AI.  And the code is setup to use `gpt-oss:20b` which needs about 12 gigs of ram, but has really shined when it comes to translating.
+
+## What is the workflow?
+
+1. In your development tool, have it write out the developer txt file, of all English Strings in a text format.
+2. Run the Python conversion tool.
+3. The translated text files will be placed into the folder of your choice.
